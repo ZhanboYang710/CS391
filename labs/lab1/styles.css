@@ -1,0 +1,12 @@
+#main-output {
+    display: none;
+}
+
+#alt-output {
+    display: none;
+}
+
+#photo {
+    max-width: 50%;
+    height: fit-content;
+}
