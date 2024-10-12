@@ -4,7 +4,7 @@ import { styled } from "styled-components";
 
 
 export default function ArtworksListContent() {
-    const [numArtworks, setNumArtworks] = useState(5);
+    const [numArtworks, setNumArtworks] = useState(10);
     const [artworks, setArtWorks] = useState<Artwork[]>([]);
 
     useEffect(  () => {
@@ -15,7 +15,7 @@ export default function ArtworksListContent() {
         }
         
         getArtworks();
-    })
+    }, [numArtworks])
 
     return (
         <div>
