@@ -13,4 +13,5 @@ export type Artwork = {
     medium_display: string;
     is_public_domain: boolean;
     is_zoomable: boolean;
+    image_id: string;
 };

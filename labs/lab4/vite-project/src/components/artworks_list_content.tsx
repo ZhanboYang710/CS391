@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Artwork } from "../types";
 import { styled } from "styled-components";
+import { Link } from "react-router-dom";
 
 
 export default function ArtworksListContent() {
@@ -41,11 +42,13 @@ const ArtworkPreviewDiv = styled.div`
 
 const ArtworkPreview = ({artwork}: {artwork: Artwork}) => {
     return (
-        <ArtworkPreviewDiv> 
-            <h3>{artwork.title}</h3>
-            <p>{artwork.place_of_origin}</p>
-            <p>{artwork.is_zoomable}</p>
-        </ArtworkPreviewDiv>
+        <Link to={`/artwork/${artwork.id}`}>
+            <ArtworkPreviewDiv> 
+                <h3>{artwork.title}</h3>
+                <p>{artwork.place_of_origin}</p>
+                <p>{artwork.is_zoomable}</p>
+            </ArtworkPreviewDiv>
+        </Link>
     )
 }
 
