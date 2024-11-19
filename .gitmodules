@@ -1,3 +1,6 @@
 [submodule "miniprojects/mp-4"]
 	path = miniprojects/mp-4
 	url = https://github.com/ZhanboYang710/mp4
+[submodule "miniprojects/mp-5"]
+	path = miniprojects/mp-5
+	url = https://github.com/ZhanboYang710/mp5
