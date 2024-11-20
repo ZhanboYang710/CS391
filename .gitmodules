@@ -7,6 +7,6 @@
 [submodule "miniprojects/mp-1"]
 	path = miniprojects/mp-1
 	url = https://github.com/ZhanboYang710/mp1
-[submodule "miniprojects/mp-2"]
-	path = miniprojects/mp-2
+[submodule "miniprojects/mp-2/mp2"]
+	path = miniprojects/mp-2/mp2
 	url = https://github.com/ZhanboYang710/mp2
