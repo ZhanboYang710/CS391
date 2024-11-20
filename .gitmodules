@@ -4,3 +4,9 @@
 [submodule "miniprojects/mp-5"]
 	path = miniprojects/mp-5
 	url = https://github.com/ZhanboYang710/mp5
+[submodule "miniprojects/mp-1"]
+	path = miniprojects/mp-1
+	url = https://github.com/ZhanboYang710/mp1
+[submodule "miniprojects/mp-2"]
+	path = miniprojects/mp-2
+	url = https://github.com/ZhanboYang710/mp2
